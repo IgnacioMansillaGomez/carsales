@@ -1,9 +1,9 @@
 'use client';
 
 import React, { useState } from 'react';
+import { useRouter } from 'next/navigation';
 import Image from 'next/image';
 import { SearchManuFacturer } from '../searchmanufacturer/searchmanufacturer.component';
-import { useRouter } from 'next/router';
 
 const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
   <button type="submit" className={`-ml-3 z-10 ${otherClasses}`}>
